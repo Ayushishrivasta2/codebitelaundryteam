@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    display:flex ;
+    
+    
+}
+#linediv{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 60%;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    border-top: .3px solid burlywood;
+    border-bottom: .3px solid burlywood;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#left{
+    width: 20%;
+    height: 100%;
+       
+    background-image: url(https://images.unsplash.com/photo-1642548666500-7990b88e691f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1278&q=80);
+    background-position: center;
+    background-size: cover;
+}
+#lbtm{
+    position: absolute;
+    bottom: 30px;
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    left: 40px;
+    font-size: 40px;
+}
+#center{
+    width: 40%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1642788847526-a3d5cdbaf404?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5NXx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=60);
+    background-size: cover;
+    background-position: center;
+
+}
+#box{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 53%;
+    top: 25%;
+    border-radius: 50%;
+    border:1px solid white;
+    
+}
+h5{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    color: floralwhite;
+    transform: translate(-50%,-50%);
+}
+#cbtm{
+    color: #fff;
+    position:absolute;
+    bottom: 80px;
+    font-size: 40px;
+}
+h2{
+    position: absolute;
+    left: 30px;
+}
+#right{
+    width: 40%;
+    height: 100%;
+   background-image: url(https://images.unsplash.com/photo-1642829597575-16fae76cc2da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=400&q=60);
+    background-position:left;
+    background-size:cover;
+    background-repeat: no-repeat;
+
+}
+
+#rtop{
+    width: 100%;
+    height: 80%;
+}
+
+#rbtm{
+    position: relative;
+ width: 100%;
+ height: 20%;
+ background-color: #fff;
+}
+#rbtm:hover
+{
+    background-color:orange;
+    cursor: pointer;
+}
+
+#r{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:rgb(113, 108, 143) ;
+    
+}
+
+#h1{
+    font-family:sans-serif;
+    position: absolute;
+    padding-left: 15%;
+    padding-top: 5%;
+    font-size: x-large;
+    color:mediumspringgreen;
+}
+

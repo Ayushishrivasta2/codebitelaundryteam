@@ -1,0 +1,14 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}html,body{
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://tse1.mm.bing.net/th?id=OIP.85brZQzjvsXn29thMHNJAwHaEK&pid=Api&P=0&w=305&h=171);
+     background-repeat: no-repeat;
+    background-size: 100%;
+        }

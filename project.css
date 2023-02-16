@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+header{
+    width: 100%;
+    height: 100vh;
+    position:relative;
+    display: flex;
+    background-image: url(https://c.ndtvimg.com/2021-08/ab0n2e4c_independence-day-red-fort-afp_625x300_14_August_21.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+nav{
+    width: 100%;
+    height: 19vh;
+    color: rgb(11, 77, 245);
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    
+}
+nav .logo {
+    width:12%;
+    height: 100px;
+    display: flex;
+    position: absolute;
+    top: 6%;
+    right: 5%;
+    background-image:url(https://think360studio-media.s3.ap-south-1.amazonaws.com/download/india-flag-2021-wallpaper-4.png) ;
+    background-size: contain;
+    background-position:right;
+    background-repeat: no-repeat;
+    justify-content: space-around;
+    text-align:center;
+   
+}
+nav .menu{
+    width: 50%;
+    display: flex; 
+    justify-content: space-between;
+    text-align: center;
+}
+nav .menu a{
+    width:25%;
+    text-decoration: none;
+    color: rgb(19, 54, 211);
+
+}
+nav .menu a:first-child{
+     color: rgb(223, 211, 231);
+}
+ main{
+     width: 50%;
+     height: 85vh;
+     display: flex;
+     text-align: center;
+     justify-content: center;
+     align-items:center; 
+     
+ }
+  section{
+    width: auto;
+    height: auto;
+    position:absolute;
+     left:10%;
+     top: 40%;
+
+    }
+  section h2{
+      font-size: 60px;
+      font-weight: 400;
+      letter-spacing: 3px;
+      color: rgb(247, 163, 6);
+      text-shadow: 5px 7px 10px rgb(85, 41, 6);
+      
+  }
+  section h1{
+      margin: 30px 0 20px 0;
+      font-size: 55px;
+      font-weight: 700;
+      color:whitesmoke ;
+      text-shadow: 20px 10px 10px rgb(25, 49, 83);
+      text-transform: uppercase;
+  }
+  section p{
+      font-size: 25px;
+      word-spacing: 2px;
+      margin-bottom:25px;
+      color:rgb(51, 209, 51);
+      text-shadow: 10px 10px 10px rgb(22, 23, 22) ;
+  }
+  section a{
+    padding: 12px 30px;
+    border-radius: 4px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: 1px; 
+    transition: all .5s ease;  
+  }
+  section .btnone{
+      background: #fff;
+      color: #000;
+  }
+  .btnone:hover{
+    background: #2bb800;
+      color: whitesmoke;
+  }
+  section .btntwo{
+      background:#118706;
+      color: whitesmoke;
+  }
+  .btntwo:hover{
+    background: #fff;
+    color: #000;
+  }
+  .change_content:after{
+    content:'';
+    animation:changetext 10s infinite linear;
+    color:#118706;
+  }
+  @keyframes changetext{
+    0%{content:"Ujjain";}
+    20%{content:"Darjeeling";}
+    40%{content:"Agra";}
+    60%{content:"Jaipur";} 
+    80%{content:"Kerala";} 
+    100%{content:" Mumbai";}
+  }
+  form{
+   width: 50%;
+   height:85vh;
+   position: absolute;
+   top: 30%; 
+   left: 70%;
+   line-height: 30px;
+   border-radius: 5px;
+   border-color: rgb(189, 174, 174);
+  }
